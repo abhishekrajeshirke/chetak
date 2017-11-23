@@ -12,6 +12,10 @@ const port = process.env.port || process.env.PORT || 1337;
 
 //Serving Static files
 app.use('/app.js',express.static(path.join(__dirname, '/app.js')));
+app.use('/directive.js',express.static(path.join(__dirname, '/directive.js')));
+app.use('/service.js',express.static(path.join(__dirname, '/service.js')));
+app.use('/data.json',express.static(path.join(__dirname, '/data.json')));
+app.use('/app.js',express.static(path.join(__dirname, '/app.js')));
 app.use('/assets',express.static(path.join(__dirname, '/assets')));
 app.use('/node_modules',express.static(path.join(__dirname, '/node_modules')));
 app.use('/app',express.static(path.join(__dirname, '/app')));
