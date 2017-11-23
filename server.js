@@ -27,3 +27,11 @@ app.get('/*', (req,res)=>{
   res.sendFile(__dirname  + "/index.html");
 
 });
+
+
+// app.use(express.bodyParser());
+app.listen(port, ()=>{
+
+  console.log("Diggr frontend is live on port " + port);
+
+});
