@@ -1,0 +1,26 @@
+<div id="top-content" class="home-slider" ng-controller="homeCtrl" ng-if="appData.slider">
+
+  <ng-owl-carousel class="owl-theme" owl-items="appData.slider" owl-properties="properties" owl-ready="ready($api)">
+      <div class="item" data-ng-repeat="slide in appData.slider" ng-style="{'background-image':'url('+slide+')'}">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="arrow-button-holder">
+                <a ui-sref="about" href="javascript:void(0)">
+                  <div class="button-text about-link-home">Know about us </div>
+                  <div class="arrow-icon">
+                    <i class="fa fa-arrow-right fa-2x"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-12">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="big-title">4 laning of 142.6 km road of Bhopal Dewas section of State Highway (SH-18)</div> -->
+      </div>
+  </ng-owl-carousel>
+
+
+  </div>

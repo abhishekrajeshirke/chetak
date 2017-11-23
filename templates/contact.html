@@ -1,0 +1,68 @@
+<div id="contact-info" class="container-fluid" ng-if="appData.contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info-box">
+                    <div class="info-title">Reach us</div>
+                    <div class="info-details">
+                      <p><i class="fa fa-phone"></i>  <a href="#">{{appData.contact.phoneNumber}}</a></p>
+                      <p><i class="fa fa-envelope-o"></i> <a ng-href="{{'mailto://'+appData.contact.email}}">{{appData.contact.email}}</a></p>
+
+                      <div class="info-title"><i class="fa fa-map-marker"></i> Visit us</div>
+
+
+                      <p>Corporate Office: {{appData.contact.corporateOffice}}</p>
+                      <p>Registered Address: {{appData.contact.registeredOffice}}</p>
+                      <!-- <p><i class="fa fa-globe"></i> <a href="http://www.chetakenterprises.com">www.chetakenterprises.com</a></p> -->
+                    </div>
+                </div>
+            </div>
+          
+            <div class="col-md-8">
+
+                <div class="col-xs-12">
+                  <form class="" action="index.html" method="post">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input required type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input required type="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label>Contact Number</label>
+                      <input required type="contact" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                      I am an / a
+                      <label>
+                        <input required type="radio" name="ima" />
+                        Experienced Professional (for job seekers)
+                      </label>
+
+                      <label>
+                        <input required type="radio" name="ima" />
+                        Vendor / Consultant
+                      </label>
+                    </div>
+                    <div class="form-group">
+                      <label>Message</label>
+                      <textarea required rows="5" type="text" maxlength="250" class="form-control" ></textarea>
+                    </div>
+                    <div class="form-group">
+                      <!-- Restrict file type to doc docx pdf rtf. Set a limit of 1 MB on file size -->
+                      <label>Upload Docs <small><i>(Allowed file types - rtf, doc, docx, pdf < 1 MB)</i></small></label>
+                      <input  type="file" class="form-control" />
+                    </div>
+                    <button class="btn btn-success">Send</button>
+                  </form>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>

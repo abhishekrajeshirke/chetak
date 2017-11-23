@@ -1,0 +1,17 @@
+<img class="img-responsive" src="assets/images/clients/clients.jpg">
+<div id="" class="clients" ng-if="appData.clients" style="padding:3rem 0; background:#fff; ">
+
+  <!-- Improvise design for clients page -->
+
+  <div class="container">
+    <div class="row text-center client-wrapper" style="" >
+      <div class="col-md-4 client-desc" ng-repeat="client in appData.clients">
+        <img ng-src="{{client.url}}" height="150" />
+        <h3>{{client.name}}</h3>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>

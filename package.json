@@ -1,0 +1,17 @@
+{
+  "name": "chetakfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Rajeshirke",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular": "^1.6.6",
+    "angular-owl-carousel2": "^1.0.6",
+    "ng-scrollbars": "git+https://github.com/iominh/ng-scrollbars.git"
+  }
+}

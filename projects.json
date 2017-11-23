@@ -1,0 +1,357 @@
+{
+  "projects": [
+      {
+          "title": "Dasna - Hapur",
+          "thumbnail": "assets/images/projects/banner(1).jpg",
+          "details": "Development of Delhi Meerut Expressway, Package – III, Six laning from existing km 27.740 to km 49.346  in the state of Uttar Pradesh on hybrid ANNUITY Mode DASNA TO HAPUR OF NH-24.",
+          "keyData": "<ol type=\"a\"><li>Client: National Highways Authority of India (NHAI)</li><li>Date of Agreement: 4th March 2016</li><li>Project duration<ol type=\"i\"><li>Construction period: 910 Days (17th June 2019)</li><li>Operation period:  15 Years (16th December 2031)</li></ol></li><li>Designer: M/s B & S Engineering Consultants Pvt. Ltd.</li><li>Independent Engineer: M/s LEA ASSOCIATE SOUTH ASIA PVT. LTD.</li><li>Major Vendors: SAIL, TATA, Ultratech, Shree Cement, IOC, HPCL, Essar oil, Dynamic prestress, Metco, Fressinet, Himscaff system, Linoff, Hamm, CAT, JCB etc</li></ol>",
+          "type": "Under Construction",
+          "photos": [
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/dasna/1"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/dasna/2"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/dasna/3"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/dasna/4"
+              }
+          ],
+          "status": {
+              "percentage": "24 % financially achieved.",
+              "table": [
+
+                  {
+                   "Sl. No.": "1",
+                   "Description": "Project Length",
+                   "Scope": "22.27 Km",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "2",
+                   "Description": "Service  Road",
+                   "Scope": "22.65 Km",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "3",
+                   "Description": "Slip Road",
+                   "Scope": "11.795 Km",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "4",
+                   "Description": "Roadside Drainage",
+                   "Scope": "43.221 Km",
+                   "% Progress": "2"
+                  },
+                  {
+                   "Sl. No.": "5",
+                   "Description": "Intersections",
+                   "Scope": "6 Nos Major & 105 Nos Minor",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "6",
+                   "Description": "Flyover (30 meter)",
+                   "Scope": "1 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "7",
+                   "Description": "Major Bridges (120 meter)",
+                   "Scope": "1 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "8",
+                   "Description": "Minor Bridges",
+                   "Scope": "7 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "9",
+                   "Description": "Viaduct (4.56 Km)",
+                   "Scope": "1 Nos",
+                   "% Progress": "15"
+                  },
+                  {
+                   "Sl. No.": "10",
+                   "Description": "Box Culverts",
+                   "Scope": "22 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "11",
+                   "Description": "Slab Culverts",
+                   "Scope": "2 Nos",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "12",
+                   "Description": "Pipe Culverts",
+                   "Scope": "1 Nos",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "13",
+                   "Description": "Vehicular Underpass",
+                   "Scope": "7 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "14",
+                   "Description": "Light Vehicular Underpass",
+                   "Scope": "1 Nos",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "15",
+                   "Description": "Pedestrian Underpass",
+                   "Scope": "1 Nos",
+                   "% Progress": ""
+                  },
+                  {
+                   "Sl. No.": "16",
+                   "Description": "Bus shelter",
+                   "Scope": "7 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "17",
+                   "Description": "Truck Shelter",
+                   "Scope": "0 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "18",
+                   "Description": "Type of pavement",
+                   "Scope": "Flexible MCW & SR.",
+                   "% Progress": "5"
+                  },
+                  {
+                   "Sl. No.": "19",
+                   "Description": "FOB",
+                   "Scope": "3 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "20",
+                   "Description": "Gantry",
+                   "Scope": "16 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "21",
+                   "Description": "Toll Plaza",
+                   "Scope": "1 No",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "22",
+                   "Description": "Traffic Signals",
+                   "Scope": "7 Nos",
+                   "% Progress": "0"
+                  },
+                  {
+                   "Sl. No.": "23",
+                   "Description": "RE Wall (17 Nos)",
+                   "Scope": "6048 Mtr ( Linear length)",
+                   "% Progress": "1"
+                  },
+                  {
+                   "Sl. No.": "",
+                   "Description": "",
+                   "Scope": "Total  =",
+                   "% Progress": "24"
+                  }
+
+              ]
+          },
+          "location": {
+              "title": " From km 27.740 to km 49.346  in the state of Uttar Pradesh.",
+              "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887"
+          }
+      },
+      {
+          "title": " Indapur - Wadpale",
+          "thumbnail": "assets/images/projects/banner(4).jpg",
+          "details": "<ol type=\"a\"><li>Project length: 26.75 Kms</li><li>Flyover : 01</li><li>Major Bridge : 01</li><li>Minor Bridge/Viaduct/ Canal Crossing : 10 Nos</li><li>Culverts : 69</li><li>Underpass : 09</li><li>Grade Intersections : 20</li></ol>",
+          "keyData": "<ol type=\"a\"><li>Client: Public Works Department (NH Division), Maharashtra</li><li>Date of Agreement: 1st June 2017</li><li>Project duration: 24 Months<ol type=\"i\"><li>Construction period: 730 Days from assigned date (17th June 2019)</li><li>Operation period:  5 Years </li></ol></li><li>Designer: Vasuprada Consultants LLP</li><li>Independent Engineer: Bloom Companies LLC in association with Credible Management & Consultants Private Limited</li><li>Major Vendors: Excel Mining & Drilling  Services, Kedar Constructions</li></ol>",
+          "type": "Under Construction",
+          "photos": [
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/indapur/1"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/indapur/2"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/indapur/3"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/indapur/4"
+              }
+          ],
+          "status": {
+              "percentage": "Appointed Date yet to be notified, Pre-Construction Acivities in progress:, Topographic  Survey in progress, Camp Construction activities"
+
+          },
+          "location": {
+              "title": "Rehabilitation and Upgradation of Indapur to Wadpale Section of NH -17 (New NH-66) from Km.84/00 to Km.110/750 in the state of Maharashtra to four lane with paved shoulders under NHDP-IV",
+              "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887"
+          }
+      },
+      {
+          "title": "Chiplun",
+          "thumbnail": "assets/images/projects/banner(3).jpg",
+          "details": "Rehabilitation and Upgradation of NH -66 from Km.205/400 to Km.241/300 to four lane with paved shoulder in the state of Maharastra under NHDP-IV on HAM Model",
+          "keyData": "<ol type=\"a\"><li>Client: Public Works Department (NH Division), Maharashtra</li><li>Date of Agreement: 4th Oct 2016</li><li>Project duration<ol type=\"i\"><li>Construction period: 730 Days from appointment date</li><li>Operation period:  15 years</li></ol></li><li>Designer:Vasuprada Consultants LLP</li><li>Independent Engineer: Bloom Companies LLC in association with Credible Management and Consultants Private Limited</li><li>Major Vendors: SAIL, TATA, Ultratech, Shree Cement, IOC, HPCL, Essar oil, Dynamic prestress, Metco, Fressinet, Himscaff system, Linoff, Hamm, CAT, JCB etc</li></ol>",
+          "type": "Under Construction",
+          "photos": [
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/chiplun/1"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/chiplun/2"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/chiplun/3"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/chiplun/4"
+              }
+          ],
+          "status": {
+              "percentage": "Camp & Casting yard establishment activities in process, Land acquisition & structure demolition work in process, Road maintenance works prior to appointment date, Crusher Installation is completed",
+              "table": [
+                  {
+                      "Pre-Construction Activities undertaken till date": "Overlay and Carpet work",
+                      "Unit": "Sqm",
+                      "Qty": "70673.54"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Traffic Survey",
+                      "Unit": "Nos",
+                      "Qty": "2"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Axle load Survey",
+                      "Unit": "Nos",
+                      "Qty": "1"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Existing carriage way and Crust thickness Checking",
+                      "Unit": "Nos",
+                      "Qty": "28"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "BBD Test",
+                      "Unit": "Km",
+                      "Qty": "29.518"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Geo Technical Investigation",
+                      "Unit": "Nos",
+                      "Qty": "93"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Horizontal Traversing",
+                      "Unit": "Km",
+                      "Qty": "35.9"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Topography",
+                      "Unit": "Km",
+                      "Qty": "35.9"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Centre line Marking",
+                      "Unit": "Km",
+                      "Qty": "10"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Cautionary Board Fixing",
+                      "Unit": "Nos",
+                      "Qty": "53"
+                  },
+                  {
+                      "Pre-Construction Activities undertaken till date": "Tree Branches Cutting",
+                      "Unit": "Nos",
+                      "Qty": "34"
+                  },{
+                      "Pre-Construction Activities undertaken till date": "Pot hole filling",
+                      "Unit": "Sqm",
+                      "Qty": "5706"
+                  },
+
+                  {
+                      "Pre-Construction Activities undertaken till date": "Shoulder Cleaning",
+                      "Unit": "Km",
+                      "Qty": "10.3"
+                  },
+
+                  {
+                      "Pre-Construction Activities undertaken till date": "Culvert Cleaning",
+                      "Unit": "Nos",
+                      "Qty": "45"
+                  }
+
+
+              ]
+          },
+          "location": {
+              "title": " From Km.205/400 to Km.241/300 to four lane with paved shoulder in the state of Maharastra.",
+              "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887"
+          }
+      },
+      {
+          "title": "Shiv valley - Shimla",
+          "thumbnail": "assets/images/projects/banner(2).jpg",
+          "details": "Two laning with formation for four lane of proposed Shimla Bypass of NH-22 from km 129.050 to Km 156.507 on Hybrid Annuity Mode in the State of Himachal Pradesh Under NHDP Phase-III, Which includes 12 Major and Minor Bridges, 1 Special Structure of 600 Mts (Cable Stay Bridge and 3 Tunnels",
+
+          "keyData": "<ol type=\"a\"><li>Client: National Highway Authority of India </li><li>Date of Agreement: 7th October, 2016 </li><li>Concessionaire: Shiv Valley Highways Private Limited</li><li>Project Duration\n<ol type=\"i\"><li>Construction Period: 910 days from the Appointed Date.</li><li>Operation Period: 15 years</li></ol></li><li><ol type=\"i\">Designers\n<li>Cable Stay Bridge : International Bridge Technologies INC California. Their Dubai office to be the nodal point. </li><li>Major & Minor Bridges: AECOM India Ltd</li><li>Tunnels: AECOM India Ltd</li><li>Highway: AECOM India Ltd</li><li>Independent Engineer: Yongma Engineering  Co. Ltd. in association with Sterling Indo Tech Consultants  (P) Ltd. </li><li>Major Vendors: Chetak Enterprises Limited - EPC Contractor</li></ol></li></ol>",
+          "type": "Under Construction",
+          "photos": [
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/shimla/1"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/shimla/2"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/shimla/3"
+              },
+              {
+                  "caption": "Dasna Hapur",
+                  "url": "assets/images/projects/shimla/4"
+              }
+          ],
+          "status": {
+              "percentage": "Project is in mobilisation stage, finanacial closure achieved and appointment date yet to be notified. "
+          },
+          "location": {
+              "title": " Shimla, Himachal Pradesh",
+              "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887"
+          }
+      }
+  ]
+}

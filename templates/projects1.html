@@ -1,0 +1,114 @@
+
+<div id="" class="project-slider">
+  <div class="bar-slider">
+    <div class="container">
+
+      <ul class="list-inline project_slider list-unstyled">
+        <ng-owl-carousel class="owl-theme" owl-items="appData.slider" owl-properties="properties" owl-ready="ready($api)">
+          <li class="item" data-ng-repeat="project in appData.projects">
+            <a href="#" ng-click="navigateToProject(project)" ng-style="{'background-image':'url('+project.thumbnail+')'}">
+              {{project.title}}
+            </a>
+          </li>
+
+        </ng-owl-carousel>
+
+      </ul>
+
+
+
+    </div>
+  </div>
+  <div class="container" style="margin-top:2rem; margin-bottom:4rem;">
+    <div class="row">
+
+      <h2>Dasna -Hapur- NH-24 in the state of Uttar Pradesh.</h2>
+      <div class="col-md-3 col-lg-3 projects-list">
+        <!--
+        <a href="#" class="project-thumb">
+          <h4>Sirohi-Mandar-Deesa-Project</h4>
+          <p>Actual Con. Completion - 17/05/03 (i.e. almost 4 months 2 days ahead)</p>
+        </a> -->
+        <ul class="text-right projects-left-bar list-unstyled">
+          <li>
+            <a href="#">Project Location</a>
+          </li>
+          <li>
+            <a href="#">Project Details</a>
+          </li>
+          <li>
+            <a href="#">Key Data</a>
+          </li>
+          <li>
+            <a href="#">Project Status</a>
+          </li>
+          <li>
+            <a href="#">Project Photographs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+
+        <h3><i class="fa fa-map-marker"></i> From km 27.740 to km 49.346  in the state of Uttar Pradesh.</h3>
+        <!--  TODO Show map on cliek of this btn. Hide it by default-->
+        <button class="showmap pull-right"><i class="fa fa-map"></i> Show Map</button>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <hr />
+        <h3>Project Details</h3>
+        <p>Development of Delhi Meerut Expressway, Package – III, Six laning from existing km 27.740 to km 49.346  in the state of Uttar Pradesh on hybrid ANNUITY Mode DASNA TO HAPUR OF NH-24.</p>
+        <hr />
+
+        <h3>Key Data</h3>
+
+        <ol type="a"><li>Client: National Highways Authority of India (NHAI)</li><li>Date of Agreement: 4th March 2016</li><li>Project duration<ol type="i"><li>Construction period: 910 Days (17th June 2019)</li><li>Operation period:  15 Years (16th December 2031)</li></ol></li><li>Designer: M/s B & S Engineering Consultants Pvt. Ltd.</li><li>Independent Engineer: M/s LEA ASSOCIATE SOUTH ASIA PVT. LTD.</li><li>Major Vendors: SAIL, TATA, Ultratech, Shree Cement, IOC, HPCL, Essar oil, Dynamic prestress, Metco, Fressinet, Himscaff system, Linoff, Hamm, CAT, JCB etc</li></ol>
+        <hr />
+        <h3>Project Status</h3>
+        <p>24 % financially achieved.</p>
+
+        <table border="1" width="100%">
+          <thead>
+            <tr>
+              <th>Sr. No.</th>
+              <th>Description</th>
+              <th>Scope</th>
+              <th>% Progress</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Project Length</td>
+              <td>22.27 Km</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Service Road</td>
+              <td>22.65 Km</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Slip Road</td>
+              <td>11.795 Km</td>
+              <td>0</td>
+            </tr>
+
+          </tbody>
+        </table>
+        <hr />
+
+        <h3>Project Photographs</h3>
+
+
+
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <p class="text-center"><a class="dir-link" href="javascript:void(0)" ui-sref="contact">Contact us</a></p>
+</div>

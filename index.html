@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="chetak">
+  <head>
+    <!-- <base href="/"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>Chetak Enterprises Ltd.</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body ng-controller="mainCtrl">
+
+    <home-nav ng-if="state.current.name =='home' || state.current.name =='contact'"></home-nav>
+    <primary-nav ng-if="state.current.name != 'home' && state.current.name !='contact'"></primary-nav>
+
+
+    <ui-view></ui-view>
+
+    <bg-footer ng-if="state.current.name != 'home'"></bg-footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-owl-carousel2/src/angular-owl-carousel-2.js"></script>
+    <script src="node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="node_modules/ng-scrollbars/dist/scrollbars.min.js"></script>
+    <script src="app.js"></script>
+    <script src="service.js"></script>
+    <script src="directive.js"></script>
+
+  </body>
+</html>

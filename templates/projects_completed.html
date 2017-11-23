@@ -1,0 +1,127 @@
+
+<div id="" class="project-slider" ng-controller="projectsCtrl">
+  <div class="bar-slider">
+    <div class="container">
+
+      <ul class="list-inline project_slider list-unstyled">
+        <ng-owl-carousel class="owl-theme" owl-items="appData.projects" owl-properties="properties" owl-ready="ready($api)">
+          <li class="item"  ng-if="project.type=='Completed'" data-ng-repeat="project in renderedProjects.completed">
+            <a href="#" ng-click="navigateToProject('c',project)" style="background-image: url('{{project.thumbnail}}')">
+              {{project.title}}
+            </a>
+          </li>
+
+        </ng-owl-carousel>
+
+      </ul>
+
+
+
+    </div>
+  </div>
+  <div class="container" style="margin-top:2rem; margin-bottom:4rem;">
+    <div class="row">
+
+
+      <h2>{{activeCProject.title}}</h2>
+      <div class="col-md-3 col-lg-3 projects-list">
+        <!--
+        <a href="#" class="project-thumb">
+          <h4>Sirohi-Mandar-Deesa-Project</h4>
+          <p>Actual Con. Completion - 17/05/03 (i.e. almost 4 months 2 days ahead)</p>
+        </a> -->
+        <ul class="text-right projects-left-bar list-unstyled">
+          <li>
+            <a href="#" ng-click="activateSection(0)">Project Location</a>
+          </li>
+          <li>
+            <a href="#" ng-click="activateSection(1)">Project Details</a>
+          </li>
+          <li>
+            <a href="#" ng-click="activateSection(2)">Key Data</a>
+          </li>
+          <li>
+            <a href="#" ng-click="activateSection(3)">Project Status</a>
+          </li>
+          <li>
+            <a href="#" ng-click="activateSection(4)">Project Photographs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <div ng-if="activeSection ==0">
+          <h3><i class="fa fa-map-marker"></i> {{activeCProject.location.title}}</h3>
+          <!--  TODO Show map on cliek of this btn. Hide it by default-->
+          <button class="showmap pull-right" ng-click="toggleMap()"><i class="fa fa-map"></i> <span ng-if="showMap == false">Show</span> <span ng-if="showMap == true">Hide</span> Map</button>
+
+          <iframe ng-show="showmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          <hr />
+        </div>
+
+
+        <div ng-if="activeSection ==1">
+
+          <h3>Project Details</h3>
+          <p ng-bind-html="trustHTML(activeCProject.details)"></p>
+          <hr />
+        </div>
+
+
+
+        <div ng-if="activeSection ==2">
+
+          <h3>Key Data</h3>
+
+          <div ng-bind-html="trustHTML(activeCProject.keyData)"></div>
+          <hr />
+        </div>
+
+
+
+        <div ng-if="activeSection ==3">
+
+          <h3>Project Status</h3>
+          <p>{{activeCProject.status.percentage}}</p>
+
+          <table border="1" width="100%" class="table table-striped">
+            <thead>
+              <tr>
+                <th ng-repeat="(key, title) in activeCProject.status.table[0]">{{key}}</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="(key, record) in activeCProject.status.table">
+                <td ng-repeat="(key, title) in record">{{title}}</td>
+
+              </tr>
+
+            </tbody>
+          </table>
+          <hr />
+        </div>
+
+
+        <div ng-if="activeSection ==4">
+
+          <h3>Project Photographs</h3>
+
+          <div >
+            <ng-owl-carousel class="owl-theme photosCarousel" owl-items="activeCProject.photos" owl-properties="imgproperties" owl-ready="ready($api)">
+              <figure class="item" data-ng-repeat="img in activeCProject.photos">
+                <img ng-src="{{img.url}}" class="img-responsive" />
+                <!-- <figcaption>{{img.caption}}</figcaption> -->
+              </figure>
+
+            </ng-owl-carousel>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <p class="text-center"><a class="dir-link" href="javascript:void(0)" ui-sref="contact">Contact us</a></p>
+</div>

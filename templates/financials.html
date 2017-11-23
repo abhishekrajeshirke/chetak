@@ -1,0 +1,30 @@
+
+<div id="" ng-controller="financialsCtrl" class="financials" ng-if="appData.financials" >
+  <div class="fin-bg" ng-style="{'background':'url('+appData.financials.headerImage+') no-repeat'}">
+
+  </div>
+  <div class="container">
+    <div class="row " >
+      <div class="col-md-6">
+        <img ng-src="{{appData.financials.tableImage}}" class="img-responsive">
+      </div>
+      <div class="col-md-6">
+        <table border="1" class="table table-striped">
+          <tr>
+            <th>Facilities</th>
+            <th>Amount <br/>INR in Mn</th>
+            <th>Present Rating</th>
+          </tr>
+          <tr ng-repeat="row in appData.financials.table">
+            <td>{{row.facilities}}</td>
+            <td>{{row.amount}}</td>
+            <td>{{row.presentRating}}</td>
+          </tr>
+        </table>
+        <p>{{appData.financials.desc}}</p>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>

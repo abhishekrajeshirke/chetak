@@ -1,0 +1,40 @@
+<div id="info" class="container-fluid" ng-controller="managementCtrl" ng-if="appData.management.length">
+    <div class="container">
+        <div class="row">
+
+          <div class=" directors-container col-md-4">
+            <div ng-scrollbars ng-scrollbars-config="{scrollInertia:10}">
+
+              <div class=" directors-list  clearfix">
+
+                <div ng-click="changeDirector(director)" class="item clearfix" ng-repeat="director in appData.management">
+                  <figure>
+                    <img ng-src="{{director.url}}">
+                  </figure>
+                  <h4>{{director.name}}</h4>
+                  <p><strong>{{director.designation}}</strong></p>
+                  <p>DIN: {{director.din}}</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="directors-info col-md-8">
+
+            <article>
+              <h2>{{activeDirector.name}}</h2>
+              <p>{{activeDirector.designation}}</p>
+              <p>DIN: {{activeDirector.din}}</p>
+              <p class="blockquote">{{activeDirector.blockquote}}</p>
+              <p ng-repeat="para in activeDirector.desc">{{para}}</p>
+            </article>
+
+          </div>
+
+          <div class="clearfix"></div>
+          <br /><br /><br />
+          <div class="text-center"><a class="dir-link" href="javascript:void(0)" ui-sref="javascript:void(0)">Under Construction Projects</a></div>
+        </div>
+    </div>
+</div>

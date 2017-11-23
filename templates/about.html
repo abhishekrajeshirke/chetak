@@ -1,0 +1,22 @@
+<div id="info" class="container-fluid" ng-if="appData.about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info-text text-justify" ng-if="appData.about.content1">{{appData.about.content1}}</div>
+                <h3 ng-if="appData.about.title">{{appData.about.title}}</h3>
+                <div ng-if="appData.about.content2" class="row info-text text-justify">
+
+
+                  <p class="" ng-repeat="content in appData.about.content2">{{content}} </p>
+
+                  <br />
+                </div>
+
+                <div class="text-center">
+                  <a class="dir-link" ui-sref="management" href="javascript:void(0)">Management</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
