@@ -167,6 +167,7 @@ app.controller("projectsCtrl", function($scope, $timeout, $sce, $state){
     }
   }
 
+
   $scope.activeUCProject = $scope.renderedProjects.under_construction[0];
   $scope.activeOProject = $scope.renderedProjects.operational[0];
   $scope.activeCProject = $scope.renderedProjects.completed[0];
@@ -190,7 +191,7 @@ app.controller("projectsCtrl", function($scope, $timeout, $sce, $state){
         break;
 
     }
-    
+
   }
 
   $scope.properties = {

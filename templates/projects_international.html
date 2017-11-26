@@ -1,6 +1,6 @@
 
 <div id="" class="project-slider" ng-controller="projectsCtrl">
-  <div class="bar-slider">
+  <!-- <div class="bar-slider">
     <div class="container">
 
       <ul class="list-inline project_slider list-unstyled">
@@ -18,7 +18,7 @@
 
 
     </div>
-  </div>
+  </div> -->
   <div class="container" style="margin-top:2rem; margin-bottom:4rem;">
     <div class="row">
 
@@ -31,43 +31,46 @@
           <p>Actual Con. Completion - 17/05/03 (i.e. almost 4 months 2 days ahead)</p>
         </a> -->
         <ul class="text-right projects-left-bar list-unstyled">
-          <li>
+          <!-- <li>
             <a href="#" ng-click="activateSection(0)">Project Location</a>
-          </li>
+          </li> -->
           <li>
-            <a href="#" ng-click="activateSection(1)">Project Details</a>
+            <a href="javascript:void(0)" ng-click="activateSection(0)">Project Details</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" ng-click="activateSection(2)">Key Data</a>
-          </li>
+          </li> -->
           <li>
-            <a href="#" ng-click="activateSection(3)">Project Status</a>
+            <a href="javascript:void(0)" ng-click="activateSection(1)">Project Status</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" ng-click="activateSection(4)">Project Photographs</a>
-          </li>
+          </li> -->
         </ul>
       </div>
       <div class="col-md-8">
-        <div ng-if="activeSection ==0">
+        <!-- <div ng-if="activeSection ==0">
           <h3><i class="fa fa-map-marker"></i> {{activeIProject.location.title}}</h3>
-          <!--  TODO Show map on cliek of this btn. Hide it by default-->
+
           <button class="showmap pull-right" ng-click="toggleMap()"><i class="fa fa-map"></i> <span ng-if="showMap == false">Show</span> <span ng-if="showMap == true">Hide</span> Map</button>
 
           <iframe ng-show="showmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
           <hr />
         </div>
+ -->
 
-
-        <div ng-if="activeSection ==1">
+        <div ng-if="activeSection ==0">
 
           <h3>Project Details</h3>
           <p ng-bind-html="trustHTML(activeIProject.details)"></p>
+
+          <br />
+          <img src="assets/images/projects/international.jpg" class="img-responsive">
           <hr />
         </div>
 
-
+<!--
 
         <div ng-if="activeSection ==2">
 
@@ -75,14 +78,14 @@
 
           <div ng-bind-html="trustHTML(activeIProject.keyData)"></div>
           <hr />
-        </div>
+        </div> -->
 
 
 
-        <div ng-if="activeSection ==3">
+        <div ng-if="activeSection ==1">
 
           <h3>Project Status</h3>
-          <p>{{activeIProject.status.percentage}}</p>
+          <!-- <p>{{activeIProject.status.percentage}}</p> -->
 
           <table border="1" width="100%" class="table table-striped">
             <thead>
@@ -102,7 +105,7 @@
           <hr />
         </div>
 
-
+<!--
         <div ng-if="activeSection ==4">
 
           <h3>Project Photographs</h3>
@@ -116,7 +119,7 @@
 
             </ng-owl-carousel>
           </div>
-        </div>
+        </div> -->
 
 
       </div>

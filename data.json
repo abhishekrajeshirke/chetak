@@ -2,6 +2,151 @@
     {
         "projects": [
           {
+          	"title": "M/s. Chetak Zambia",
+          	"details": "M/s. Chetak Zambia Limited is a Grade1 contractor firm registered in Zambia, engaging a manpower strength of 200 and an evident strength of Engineering officials.  Currently executing a project of \"Construction and up-gradation D153 MANOO-PALABANA-CHILABALE basic school road of length 74Kms\". Being already mobilized machinery which of worth more than $6 Mn, details of machinery equipment are provided below.",
+          	"type": "International",
+
+          	"status": {
+          		"table": [
+                 {
+                   "Vehicle & Equipment": "Grader",
+                   "Qty": "3 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "BullDozer",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Excavator",
+                   "Qty": "7 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Roller",
+                   "Qty": "4 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "BHL",
+                   "Qty": "4 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Crusher",
+                   "Qty": "3 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Drilling Compressor",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Tandem Roller",
+                   "Qty": "2 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Hot Mix Plant",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Asphalt Paver",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "D.watering Pump",
+                   "Qty": "5 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "150KVA Genset",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "12.5 KVA DG",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "24Kw Generator",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Generator",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Tata Tipper",
+                   "Qty": "21 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Ashok Leyland",
+                   "Qty": "5 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Old Tata Tipper",
+                   "Qty": "2 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Water Tanker",
+                   "Qty": "6 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Service Van",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Concrete Mixture Machine",
+                   "Qty": "2 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Plate Compactor",
+                   "Qty": "2 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "Concrete Hume Pipe Making unit",
+                   "Qty": "1 No"
+                 },
+                 {
+                   "Vehicle & Equipment": "Light Vehicles",
+                   "Qty": "6 Nos"
+                 },
+                 {
+                   "Vehicle & Equipment": "TOTAL",
+                   "Qty": "82 Nos"
+                 }
+                ]
+          	}
+          },
+          {
+            "type":"Completed",
+            "title":"Mangawar-Nimbahera-Neemuch",
+            "startdate":"16/12/99",
+            "scheduledcompletiondate":"16/09/00",
+            "actualcompletiondate":"31/03/00 i.e. almost 15 months ahead ",
+            "thumbnail":"assets/images/projects/banner(1).jpg"
+          },
+
+          {
+            "type":"Completed",
+            "title":"Sirohi-Mandar-Deesa-Project",
+            "startdate":"17/05/03",
+            "scheduledcompletiondate":"18 Months ",
+            "actualcompletiondate":"17/05/03 i.e. 4 months & 2 days ahead ",
+            "thumbnail":"assets/images/projects/banner(2).jpg"
+          },
+
+          {
+            "type":"Completed",
+            "title":"Bar-Bilara-Jodhpur Project",
+            "startdate":"14/03/03",
+            "scheduledcompletiondate":"12 months",
+            "actualcompletiondate":"23/07/02 i.e. 4 months & 9 days ahead ",
+            "thumbnail":"assets/images/projects/banner(3).jpg"
+          },
+
+          {
+            "type":"Completed",
+            "title":"Nimbahera Bypass",
+            "startdate":"03/03/04",
+            "scheduledcompletiondate":"03/03/06",
+            "actualcompletiondate":"30/03/05 i.e. 12 months ahead",
+            "thumbnail":"assets/images/projects/banner(4).jpg"
+          },
+          {
           			"title": "Chittorgarh- Neemuch",
           			"thumbnail": "assets/images/projects/banner(1).jpg",
           			"details": "Development and Operation / maintenance of the Development and Operation  of NH-79 on Chittorgarh- Neemuch(MP Border) Section (Km 183.000 to Km 221.400) by four lanning in the state  of Rajasthan and Two Laning of imbahera- Pratapgarh Section (Km 5.400 to Km 80.000) of NH-113 on Design, Build.Finance, Operate and Transfer (DBFOT) basis  total Length of 116.997 Km",
