@@ -3809,7 +3809,7 @@ svg.logo text{
 
 .directors-list div.item h4{
   text-transform: capitalize !important;
-  color: #042165;
+  color: rgba(92, 29, 192,0.99);
   margin: 1rem 0 6px;
 }
 
@@ -3840,6 +3840,31 @@ footer{
 
 .project-slider{
   padding: 0  ;
+}
+
+h2{
+  color: rgb(92, 29, 192) !important;
+}
+h3{
+  color: #009688 !important
+}
+
+.projects-left-bar a{
+  color:#9C27B0;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd):not(:first-child){
+  background-color: #C5E1A5;
+}
+
+.table-striped>tbody>tr:nth-of-type(even):not(:first-child){
+  background-color: #F0F4C3;
+}
+
+
+.table-striped>tbody>tr:first-child{
+  background-color: #666;
+  color: #fff;
 }
 
 .project-slider .item{
@@ -4019,6 +4044,15 @@ footer{
 
 .directors-info article h2, .directors-info article p{
   margin-bottom:2rem;
+}
+
+.directors-info article h2{
+
+  color: #756de7;
+}
+
+.directors-list .item h4{
+  color:#756de7;
 }
 .directors-list .item{
   cursor: pointer;

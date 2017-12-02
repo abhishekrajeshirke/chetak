@@ -8,7 +8,7 @@
           <li class="item" ng-if="project.type=='Under Construction'"  data-ng-repeat="project in renderedProjects.under_construction">
             <a href="#" ng-click="navigateToProject('uc',project)" class="proj-thumb" style="background-image: url('{{project.thumbnail}}')" >
               {{project.title}}
-              
+
             </a>
           </li>
 
@@ -54,8 +54,8 @@
           <h3><i class="fa fa-map-marker"></i> {{activeUCProject.location.title}}</h3>
           <!--  TODO Show map on cliek of this btn. Hide it by default-->
           <button class="showmap pull-right" ng-click="toggleMap()"><i class="fa fa-map"></i> <span ng-if="showMap == false">Show</span> <span ng-if="showMap == true">Hide</span> Map</button>
-
-          <iframe ng-show="showmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5446648765187!2d77.50190831491712!3d28.680239982399026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzQ4LjkiTiA3N8KwMzAnMTQuOCJF!5e1!3m2!1sen!2sin!4v1510135353887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+          <iframe ng-show="showmap" ng-src="{{trustSrc(activeUCProject.location.mapLink)}}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
           <hr />
         </div>

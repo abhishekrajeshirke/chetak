@@ -151,6 +151,11 @@ app.controller("projectsCtrl", function($scope, $timeout, $sce, $state){
     completed:[],
     international:[]
   }
+
+  $scope.trustSrc = function(src){
+    return $sce.trustAsResourceUrl(src);
+  }
+  
   for(var key in $scope.appData.projects){
     var project = $scope.appData.projects[key];
     if(project.type == "Operational"){
